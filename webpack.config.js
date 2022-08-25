@@ -41,10 +41,7 @@ module.exports = {
     rules: [{
       test: /\.tsx?$/,
       loader: 'awesome-typescript-loader',
-      exclude: /node_modules/,
-      query: {
-        declaration: false,
-      }
+      exclude: /node_modules/
     }]
   },
   plugins: [
